@@ -1,0 +1,19 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+code {
+	display: inline-block;
+}
+
+code,
+	.hamburger {
+		vertical-align: middle;
+}
+
+@media screen and (min-width: 990px) {
+	.hamburger {
+		display: none;
+	}
+}
