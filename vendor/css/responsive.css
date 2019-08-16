@@ -1,0 +1,5 @@
+@media screen and (min-width: 990px) {
+	.hamburger {
+		display: none;
+	}
+}
