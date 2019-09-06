@@ -27,21 +27,16 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mx-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
+	        <a class="nav-link" href="#about">O que é?</a>
 	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Dropdown
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Action</a>
-	          <a class="dropdown-item" href="#">Another action</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#why">Por que?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contato</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -54,12 +49,19 @@
 	<section class="home" id="home">
 		<div class="container">
 		  <div class="row">
-		    <div class="col">
-		      <h1>HERMES</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex magna, sodales quis congue ac, mattis in mauris. Cras efficitur tempor quam vitae luctus. In hac habitasse platea dictumst. Aenean molestie nibh eleifend odio ultricies scelerisque. Nunc eget cursus dui. Maecenas scelerisque nibh eu est consectetur suscipit. Cras ornare diam sed lobortis mollis. In felis eros, porttitor ac massa ut, vehicula finibus purus. Cras eu dapibus nunc, a tempus odio. Morbi mollis erat quis ornare rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum id vestibulum velit, ac tincidunt ex.</p>
+		    <div class="col home_text">
+		      <h1>HER</h1>
+		      <h1>MES</h1>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex magna, sodales quis congue ac, mattis in mauris. Cras efficitur tempor quam vitae luctus. In hac habitasse platea dictumst. Aenean molestie nibh eleifend odio ultricies scelerisque. Nunc eget cursus dui.</p>
+		      <!-- redes sociais -->
+			    <div class="redes">
+			    	<img src="vendor/assets/images/facebook.png" width="20">
+			    	<img src="vendor/assets/images/instagram.png" width="20">
+			    	<img src="vendor/assets/images/github.png" width="20">
+			    </div>
 		    </div>
-		    <div class="col-8">
-		      <img src="vendor/assets/images/planets.png">
+		    <div class="col-8 home_image">
+		      <img src="vendor/assets/images/drone.png" class="img-fluid float-right">
 		    </div>
 		  </div>
 		</div>
@@ -71,10 +73,10 @@
 		<div class="container">
 		  <div class="row">
 		    <div class="col-8">
-		      <img src="vendor/assets/images/planets.png">
+		      <img src="vendor/assets/images/drone_about.png" class="img-fluid drone_about float-left" width="650">
 		    </div>
 		    <div class="col">
-		      <h1>Lorem Ipsum</h1>
+		      <h1>O que é?</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex magna, sodales quis congue ac, mattis in mauris. Cras efficitur tempor quam vitae luctus. In hac habitasse platea dictumst. Aenean molestie nibh eleifend odio ultricies scelerisque. Nunc eget cursus dui. Maecenas scelerisque nibh eu est consectetur suscipit. Cras ornare diam sed lobortis mollis. In felis eros, porttitor ac massa ut, vehicula finibus purus. Cras eu dapibus nunc, a tempus odio. Morbi mollis erat quis ornare rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum id vestibulum velit, ac tincidunt ex.</p>
 		    </div>
 		  </div>
@@ -82,21 +84,26 @@
 	</section>
 	<!-- /about -->
 <hr>
-	<!-- how -->
-	<section class="how" id="how">
+	<!-- why -->
+	<section class="why" id="why">
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1>LOREM IPSUN</h1>
+					<h1>Por que?</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex magna, sodales quis congue ac, mattis in mauris. Cras efficitur tempor quam vitae luctus. In hac habitasse platea dictumst. Aenean molestie nibh eleifend odio ultricies scelerisque. Nunc eget cursus dui. Maecenas scelerisque nibh eu est consectetur suscipit. Cras ornare diam sed lobortis mollis. In felis eros, porttitor ac massa ut, vehicula finibus purus. Cras eu dapibus nunc, a tempus odio. Morbi mollis erat quis ornare rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum id vestibulum velit, ac tincidunt ex.</p>
 				</div>
 				<div class="col-8">
-					<img src="vendor/assets/images/camp.png" width="700">
+					<img src="vendor/assets/images/why.png" width="550" class="img-fluid float-right">
 				</div>
 			</div>			
 		</div>
 	</section>
-	<!-- /how -->
+	<!-- /why -->
+<hr>
+	
+	<section class="contact" id="contact">
+		
+	</section>
 
 	<!-- Jquery, Poopep and Bootstrap.min.js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

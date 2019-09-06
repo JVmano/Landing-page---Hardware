@@ -1,6 +1,7 @@
 html, body {
 	width: 100%;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 code {
@@ -12,6 +13,50 @@ code,
 		vertical-align: middle;
 }
 
-section.home {
-	/* alguma coisa futuramente */
+section.home h1 {
+	position: relative;
+	top: 30%;
+}
+
+section.home p {
+	position: relative;
+	top: 35%;	
+}
+
+.redes {
+	position: relative;
+	top: 40%;
+}
+
+.redes img {
+	margin-right: 5px; 
+}
+
+.home_text {
+	margin-bottom: 30px;
+}
+
+.drone_about {
+	border-radius: 50px;
+	width: 610px;
+}
+
+section.about h1 {
+	position: relative;
+	top: 22%;	
+}
+
+section.about p {
+	position: relative;
+	top: 25%;	
+}
+
+section.why h1 {
+	position: relative;
+	top: 18%;	
+}
+
+section.why p {
+	position: relative;
+	top: 20%;	
 }
