@@ -2,6 +2,7 @@ html, body {
 	width: 100%;
 	margin: 0;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 code {
@@ -59,4 +60,8 @@ section.why h1 {
 section.why p {
 	position: relative;
 	top: 20%;	
+}
+
+.contact_form {
+	/*fjdhjfhdj*/
 }
