@@ -33,6 +33,14 @@ section.home p {
 	margin-right: 5px; 
 }
 
+.redes a {
+	text-decoration: none;
+}
+
+.redes a:hover {
+	text-decoration: none;
+}
+
 .home_text {
 	margin-bottom: 30px;
 }
@@ -62,6 +70,34 @@ section.why p {
 	top: 20%;	
 }
 
-.contact_form {
-	/*fjdhjfhdj*/
+.contact_texts img {
+	margin-right: 5px;
+}
+
+.end_of_all_things {
+	background-color: gray;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.footer_list {
+	text-decoration: none;
+	list-style: none;
+}
+
+.footer_title {
+	text-align: center;
+}
+
+.footer_list a:link {
+	color: black;	
+	text-decoration: none;
+}
+
+.footer_list a:hover {
+	color: blue;
 }
