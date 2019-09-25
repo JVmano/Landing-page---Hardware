@@ -14,6 +14,10 @@ code,
 		vertical-align: middle;
 }
 
+header a:link {
+	color: pink;
+}
+
 section.home h1 {
 	position: relative;
 	top: 30%;
@@ -21,7 +25,9 @@ section.home h1 {
 
 section.home p {
 	position: relative;
-	top: 35%;	
+	top: 35%;
+	text-align: justify;
+	text-indent: 15px;	
 }
 
 .redes {
@@ -53,11 +59,14 @@ section.home p {
 section.about h1 {
 	position: relative;
 	top: 22%;	
+	text-align: justify;
 }
 
 section.about p {
 	position: relative;
 	top: 25%;	
+	text-indent: 15px;
+	text-align: justify;
 }
 
 section.why h1 {
@@ -68,6 +77,8 @@ section.why h1 {
 section.why p {
 	position: relative;
 	top: 20%;	
+	text-indent: 15px;
+	text-align: justify;
 }
 
 .contact_texts img {
@@ -82,6 +93,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height: 110%;
 }
 
 .footer_list {
@@ -99,5 +111,13 @@ footer {
 }
 
 .footer_list a:hover {
-	color: blue;
+	color: yellow;
+}
+
+address {
+	text-align: justify;
+}
+
+.phone {
+	text-align: justify;
 }
