@@ -121,6 +121,10 @@ footer {
 	color: yellow;
 }
 
+.footer_list a {
+	color: black;
+}
+
 address {
 	text-align: justify;
 }
